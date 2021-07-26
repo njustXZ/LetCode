@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a74552-90bb-4817-b2b1-c42bddd06b6b" name="Default Changelist" comment="" />
+    <list default="true" id="93a74552-90bb-4817-b2b1-c42bddd06b6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyTest01/src/com/Meeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyTest01/src/com/njustxz/LeetCodeOffer/EveryDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyTest01/src/com/njustxz/LeetCodeOffer/EveryDayTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
   </component>
@@ -53,6 +62,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1k3cms8kTXgOauncmwBgplc7OOr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,12 +70,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -84,13 +95,13 @@
       <recent name="com.njustxz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Student01">
-    <configuration name="Student01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.njustxz.Student01" />
+  <component name="RunManager" selected="Application.EveryDayTest">
+    <configuration name="EveryDayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.njustxz.LeetCodeOffer.EveryDayTest" />
       <module name="MyTest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.njustxz.*" />
+          <option name="PATTERN" value="com.njustxz.LeetCodeOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIO2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.njustxz.IO.TestIO2" />
+    <configuration name="Student01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.njustxz.Student01" />
       <module name="MyTest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.njustxz.IO.*" />
+          <option name="PATTERN" value="com.njustxz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EveryDayTest" />
         <item itemvalue="Application.Student01" />
         <item itemvalue="Application.TestIO5" />
         <item itemvalue="Application.TestIO4" />
         <item itemvalue="Application.TestIO3" />
-        <item itemvalue="Application.TestIO2" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +285,7 @@
       <workItem from="1626677918586" duration="1069000" />
       <workItem from="1626682076645" duration="797000" />
       <workItem from="1626697103430" duration="206000" />
+      <workItem from="1627224176218" duration="4658000" />
     </task>
     <servers />
   </component>
@@ -305,64 +317,64 @@
     <state x="591" y="206" key="FileChooserDialogImpl/0.0.1536.824/1920.6.1920.1040@0.0.1536.824" timestamp="1626697298156" />
     <state x="2659" y="266" key="FileChooserDialogImpl/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1625899212718" />
     <state x="591" y="206" key="FileChooserDialogImpl/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625496070705" />
-    <state width="1877" height="427" key="GridCell.Tab.0.bottom" timestamp="1626316571238">
-      <screen x="1920" y="6" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="427" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1626316571238" />
     <state width="1493" height="323" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="324" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624700822059" />
-    <state width="1877" height="427" key="GridCell.Tab.0.center" timestamp="1626316571238">
-      <screen x="1920" y="6" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="427" key="GridCell.Tab.0.center/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1626316571238" />
     <state width="1493" height="323" key="GridCell.Tab.0.center/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="324" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624700822059" />
-    <state width="1877" height="427" key="GridCell.Tab.0.left" timestamp="1626316571238">
-      <screen x="1920" y="6" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="427" key="GridCell.Tab.0.left/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1626316571238" />
     <state width="1493" height="323" key="GridCell.Tab.0.left/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639770" />
-    <state width="1493" height="324" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624700822059" />
-    <state width="1877" height="427" key="GridCell.Tab.0.right" timestamp="1626316571238">
-      <screen x="1920" y="6" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="427" key="GridCell.Tab.0.right/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1626316571238" />
     <state width="1493" height="323" key="GridCell.Tab.0.right/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="324" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624700822059" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1624959639771">
-      <screen x="1920" y="7" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1624427533238" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="325" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620460103911" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1624959639771">
-      <screen x="1920" y="7" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1624427533238" />
     <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="325" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620460103911" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1624959639771">
-      <screen x="1920" y="7" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1624427533238" />
     <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="325" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620460103911" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1624959639771">
-      <screen x="1920" y="7" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1627229365474">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1624427533238" />
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
-    <state width="1493" height="325" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620460103911" />
-    <state x="2381" y="6" key="SettingsEditor" timestamp="1625832209318">
-      <screen x="1920" y="6" width="1920" height="1040" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
+    <state x="369" y="0" key="SettingsEditor" timestamp="1627229092344">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2381" y="6" key="SettingsEditor/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1625832209318" />
     <state x="369" y="0" key="SettingsEditor/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625057548362" />
-    <state x="2381" y="169" key="SettingsEditor/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1618560587900" />
+    <state x="369" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627229092344" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1624978073108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -406,6 +418,11 @@
           <url>file://$PROJECT_DIR$/MyTest01/src/com/njustxz/HuaWei/Demo.java</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MyTest01/src/com/njustxz/LeetCodeOffer/EveryDayTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
