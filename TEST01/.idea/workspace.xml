@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93a74552-90bb-4817-b2b1-c42bddd06b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyTest01/src/com/njustxz/SpecialProblem/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyTest01/src/com/njustxz/Sort/SortMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyTest01/src/com/njustxz/Sort/SortMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyTest01/com/njustxz/SpecialProblem/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyTest01/com/njustxz/SpecialProblem/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <recent name="com.njustxz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.SortMethod">
     <configuration name="EveryDayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.njustxz.LeetCodeOffer.EveryDayTest" />
       <module name="MyTest01" />
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.njustxz.Student01" />
+    <configuration name="SortMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.njustxz.Sort.SortMethod" />
       <module name="MyTest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.njustxz.*" />
+          <option name="PATTERN" value="com.njustxz.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIO4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.njustxz.IO.TestIO4" />
+    <configuration name="Student01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.njustxz.Student01" />
       <module name="MyTest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.njustxz.IO.*" />
+          <option name="PATTERN" value="com.njustxz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortMethod" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.EveryDayTest" />
         <item itemvalue="Application.Student01" />
         <item itemvalue="Application.TestIO5" />
-        <item itemvalue="Application.TestIO4" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +286,7 @@
       <workItem from="1627224176218" duration="4658000" />
       <workItem from="1627282298904" duration="639000" />
       <workItem from="1627544975663" duration="4717000" />
+      <workItem from="1627566629430" duration="2300000" />
     </task>
     <servers />
   </component>
@@ -316,31 +318,31 @@
     <state x="591" y="206" key="FileChooserDialogImpl/0.0.1536.824/1920.6.1920.1040@0.0.1536.824" timestamp="1627284338041" />
     <state x="2659" y="266" key="FileChooserDialogImpl/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1625899212718" />
     <state x="591" y="206" key="FileChooserDialogImpl/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625496070705" />
-    <state width="1877" height="426" key="GridCell.Tab.0.bottom" timestamp="1627564459906">
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom" timestamp="1627569806012">
       <screen x="1920" y="6" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627564459906" />
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627569806012" />
     <state width="1493" height="323" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
     <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
-    <state width="1877" height="426" key="GridCell.Tab.0.center" timestamp="1627564459906">
+    <state width="1877" height="176" key="GridCell.Tab.0.center" timestamp="1627569806012">
       <screen x="1920" y="6" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.center/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627564459906" />
+    <state width="1877" height="176" key="GridCell.Tab.0.center/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627569806012" />
     <state width="1493" height="323" key="GridCell.Tab.0.center/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
     <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
-    <state width="1877" height="426" key="GridCell.Tab.0.left" timestamp="1627564459906">
+    <state width="1877" height="176" key="GridCell.Tab.0.left" timestamp="1627569806012">
       <screen x="1920" y="6" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.left/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627564459906" />
+    <state width="1877" height="176" key="GridCell.Tab.0.left/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627569806012" />
     <state width="1493" height="323" key="GridCell.Tab.0.left/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639770" />
     <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
-    <state width="1877" height="426" key="GridCell.Tab.0.right" timestamp="1627564459906">
+    <state width="1877" height="176" key="GridCell.Tab.0.right" timestamp="1627569806012">
       <screen x="1920" y="6" width="1920" height="1040" />
     </state>
-    <state width="1877" height="426" key="GridCell.Tab.0.right/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627564459906" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627569806012" />
     <state width="1493" height="323" key="GridCell.Tab.0.right/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625121191793" />
     <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624959639771" />
     <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627229365474" />
@@ -378,11 +380,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1624978073108" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1627282307582">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2560" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1627566687914">
+      <screen x="1920" y="6" width="1920" height="1040" />
     </state>
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.6.1920.1040@0.0.1536.824" timestamp="1627282307582" />
-    <state x="2560" y="351" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1625899172217" />
+    <state x="2560" y="351" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.6.1920.1040@1920.6.1920.1040" timestamp="1627566687914" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.7.1920.1040@0.0.1536.824" timestamp="1625493427262" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.7.1920.1040@1920.7.1920.1040" timestamp="1624960041981" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625312685513" />

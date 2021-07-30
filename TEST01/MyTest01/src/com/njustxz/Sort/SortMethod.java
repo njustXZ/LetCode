@@ -1,4 +1,4 @@
-//package com.njustxz.Sort;
+package com.njustxz.Sort;
 
 import com.sun.jdi.PathSearchingVirtualMachine;
 
@@ -20,19 +20,19 @@ public class SortMethod {
         Date dat = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
         String t1 = simpleDateFormat.format(dat);
-        System.out.println("������ǰʱ�䣺" + t1);
-//        shellSort(arr2);
-        quickSort(arr2,0,arr2.length -1);
-        System.out.println("�����");
+        System.out.println("排序前时间" + t1);
+        shellSort(arr2);
+//        quickSort(arr2,0,arr2.length -1);
+        System.out.println("排序后数组");
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + "  ");
             if (i % 10 == 9) System.out.println();
         }
         dat = new Date();
-        System.out.println("�����ʱ�䣺" + simpleDateFormat.format(dat));
+        System.out.println("排序后时间" + simpleDateFormat.format(dat));
     }
 
-    //ð������
+    //冒泡排序 n平方
     public static void bubbleSort(int[] arr) {
         int tmp = 0;
         boolean flag = false;
@@ -52,7 +52,7 @@ public class SortMethod {
         }
     }
 
-    //ѡ������
+    //简单选择排序 n平方
     public static void chooseSort(int[] arr) {
         int index = 0;
         int tmp = 0;
@@ -73,7 +73,7 @@ public class SortMethod {
         }
     }
 
-    //��������
+    //插入排序
     public static void insertSort(int[] arr) {
         int s1 = 0;
         int n = arr.length;
@@ -91,7 +91,7 @@ public class SortMethod {
         }
     }
 
-    //ϣ������
+    //希尔排序
     public static void shellSort(int[] arr) {
         int gap, n = arr.length;
         gap = n / 2;
@@ -114,8 +114,7 @@ public class SortMethod {
         }
     }
 
-    //��������
-    //��Ҫע��ļ��㣺1.
+    //快速排序
     public static void quickSort(int[] arr, int left, int right) {
         int tmp = 0;
         int l = left;
@@ -153,12 +152,12 @@ public class SortMethod {
         }
     }
 
-    //�鲢����
+    //归并排序
     public static void mergeSort(int [] arr,int left,int right,int[] temp) {
         if(left<right){
-            //�ȷֽ�
+            //选取中间值
             int mid = (left+right)/2;
-            //����ֽ�
+            //前
             mergeSort(arr,left,mid,temp);
             //���ҷֽ�
             mergeSort(arr,mid+1,right,temp);
